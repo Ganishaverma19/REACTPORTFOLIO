@@ -35,7 +35,7 @@ function App() {
                 <FaMoon onClick={()=> setDarkMode(!darkMode)} className=' text-md lg:text-xl cursor-pointer '/>
               </li>
               <li>
-                <a className =" bg-gradient-to-r from-cyan-500 to-teal-500 rounded px-2 py-1 lg:px-4 lg:py-2" href="src/assets/RESUME.pdf" target="_blank" rel="noopener noreferrer">Resume </a>
+                <a className =" bg-gradient-to-r from-cyan-500 to-teal-500 rounded px-2 py-1 lg:px-4 lg:py-2" href="/RESUME.pdf" target="_blank" rel="noopener noreferrer">Resume </a>
               </li>
             </ul>
           </nav> 
