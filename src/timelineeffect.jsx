@@ -1,7 +1,6 @@
 import React from "react";
 import { Timeline } from "./Components/ui/timeline";
 
-
 export function TimelineDemo() {
   const data = [
 
@@ -40,26 +39,26 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             <a href="https://ganishavermaportfolio.netlify.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="src\assets\portfolio1.png"
+              src="src/assets/FuelHub/FuelHub1.png"
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
               </a>
             <img
-              src="src\assets\portfolio4.png "
+              src="src/assets/Portfolio/portfolio4.png"
               alt="feature template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\portfolio3.png"
+              src="src/assets/Portfolio/portfolio3.png"
               alt="bento template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="  src\assets\portfolio2.png"
+              src="src/assets/Portfolio/portfolio2.png"
               alt="cards template"
               width={500}
               height={500}
@@ -101,26 +100,26 @@ export function TimelineDemo() {
            
            <a href="https://fuelhub.netlify.app" target="_blank" rel="noopener noreferrer">
            <img
-              src="src\assets\FuelHub1.png"
+              src="src/assets/FuelHub/FuelHub1.png"
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
            </a> 
             <img
-              src="src\assets\FuelHub2.png"
+              src="src/assets/FuelHub/FuelHub2.png"
               alt="feature template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\FuelHub3.png"
+              src="src/assets/FuelHub/FuelHub3.png"
               alt="bento template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\FuelHub4.png"
+              src="src/assets/FuelHub/FuelHub4.png"
               alt="cards template"
               width={500}
               height={500}
@@ -166,26 +165,26 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
            <a href="https://360nest.netlify.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="src/assets/360Nest1.png"
+              src="src/assets/NEST/360Nest1.png"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             </a>
             <img
-              src="src\assets\360Nest2.png"
+              src="src/assets/NEST/360Nest2.png"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\360Nest3.png"
+              src="src/assets/NEST/360Nest3.png"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\360Nest4.png"
+              src="src/assets/NEST/360Nest4.png"
               alt="startup template"
               width={500}
               height={500}
