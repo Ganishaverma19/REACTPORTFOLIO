@@ -12,18 +12,7 @@ import { TimelineDemo } from './timelineeffect'
 import Timeline from "./Components/ui/roadmap";
 import { useState } from 'react';
 import Contact from './Components/Contact/Contact.jsx'
-import portfolio1 from './assets/portfolio1.png'
-import portfolio2 from './assets/portfolio2.png'
-import portfolio3 from './assets/portfolio3.png'
-import portfolio4 from './assets/portfolio4.png'
-import FuelHub1 from './assets/FuelHub1.png'
-import FuelHub2 from './assets/FuelHub2.png'
-import FuelHub3 from './assets/FuelHub3.png'
-import FuelHub4 from './assets/FuelHub4.png'
-import Nest1 from './assets/Nest1.png'
-import Nest2 from './assets/Nest2.png'
-import Nest3 from './assets/Nest3.png'
-import Nest4 from './assets/Nest4.png'
+import leetcode from './assets/leetcode.png'
 
 
 
@@ -63,11 +52,17 @@ function App() {
                     with smooth and engaging animations.
                 </p>
           </div>
-          <div className=' text-4xl lg:text-5xl flex justify-center gap-16 py-4 '> 
-             <FaLinkedin/>
-             <FaGithub/>
-            <img src="public/leetcode.png" alt="LeetCode" className=' w-7  h-8  lg:w-10 lg:h-11'/>
-          </div>
+            <div className=' text-4xl lg:text-5xl flex justify-center gap-16 py-4 '> 
+            <a href="https://www.linkedin.com/in/ganisha-verma-906341251" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin/>
+              </a>
+              <a href="https://github.com/Ganishaverma19" target='_blank' rel='noopener noreferrer'>
+              <FaGithub/>
+              </a>
+              <a href="https://leetcode.com/u/GanishaVerma_19/" target="_blank" rel="noopener noreferrer">
+              <img src={leetcode} alt="LeetCode" className=' w-7  h-8  lg:w-10 lg:h-11'/>
+            </a>
+            </div>
           <div className='flex justify-center py-4 '>
               <img src={img} alt="Avtar" className="w-40 h-40 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full"/>
           </div>
