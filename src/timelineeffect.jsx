@@ -1,5 +1,18 @@
 import React from "react";
 import { Timeline } from "./Components/ui/timeline";
+import portfolio1 from './assets/portfolio1.png'
+import portfolio2 from './assets/portfolio2.png'
+import portfolio3 from './assets/portfolio3.png'
+import portfolio4 from './assets/portfolio4.png'
+import FuelHub1 from './assets/FuelHub1.png'
+import FuelHub2 from './assets/FuelHub2.png'
+import FuelHub3 from './assets/FuelHub3.png'
+import FuelHub4 from './assets/FuelHub4.png'
+import Nest1 from './assets/Nest1.png'
+import Nest2 from './assets/Nest2.png'
+import Nest3 from './assets/Nest3.png'
+import Nest4 from './assets/Nest4.png'
+
 
 
 export function TimelineDemo() {
@@ -40,26 +53,26 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             <a href="https://ganishavermaportfolio.netlify.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="src\assets\portfolio1.png"
+              src={portfolio1}
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
               </a>
             <img
-              src="src\assets\portfolio4.png "
+              src={portfolio4}
               alt="feature template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\portfolio3.png"
+              src={portfolio3}
               alt="bento template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="  src\assets\portfolio2.png"
+              src={portfolio2}
               alt="cards template"
               width={500}
               height={500}
@@ -101,26 +114,26 @@ export function TimelineDemo() {
            
            <a href="https://fuelhub.netlify.app" target="_blank" rel="noopener noreferrer">
            <img
-              src="src\assets\FuelHub1.png"
+              src={FuelHub1}
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
            </a> 
             <img
-              src="src\assets\FuelHub2.png"
+              src={FuelHub2}
               alt="feature template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\FuelHub3.png"
+              src={FuelHub3}
               alt="bento template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\FuelHub4.png"
+              src={FuelHub4}
               alt="cards template"
               width={500}
               height={500}
@@ -166,26 +179,26 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
            <a href="https://360nest.netlify.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="src/assets/360Nest1.png"
+              src={Nest1}
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             </a>
             <img
-              src="src\assets\Nest2.png"
+              src={Nest2}
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\Nest3.png"
+              src={Nest3}
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
             <img
-              src="src\assets\Nest4.png"
+              src={Nest4}
               alt="startup template"
               width={500}
               height={500}
