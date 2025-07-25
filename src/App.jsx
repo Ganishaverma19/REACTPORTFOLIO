@@ -35,7 +35,7 @@ function App() {
                 <FaMoon onClick={()=> setDarkMode(!darkMode)} className=' text-md lg:text-xl cursor-pointer '/>
               </li>
               <li>
-                <a className =" bg-gradient-to-r from-cyan-500 to-teal-500 rounded px-2 py-1 lg:px-4 lg:py-2" href="src\assets\RESUME.pdf">Resume </a>
+                <a className =" bg-gradient-to-r from-cyan-500 to-teal-500 rounded px-2 py-1 lg:px-4 lg:py-2" href="src/assets/RESUME.pdf" target="_blank" rel="noopener noreferrer">Resume </a>
               </li>
             </ul>
           </nav> 
@@ -51,7 +51,7 @@ function App() {
           <div className=' text-4xl lg:text-5xl flex justify-center gap-16 py-4 '> 
              <FaLinkedin/>
              <FaGithub/>
-            <img src="/leetcode.png" alt="LeetCode" className=' w-7  h-8  lg:w-10 lg:h-11'/>
+            <img src="public/leetcode.png" alt="LeetCode" className=' w-7  h-8  lg:w-10 lg:h-11'/>
           </div>
           <div className='flex justify-center py-4 '>
               <img src={img} alt="Avtar" className="w-40 h-40 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full"/>

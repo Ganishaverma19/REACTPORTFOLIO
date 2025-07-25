@@ -39,7 +39,7 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             <a href="https://ganishavermaportfolio.netlify.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="src/assets/FuelHub/FuelHub1.png"
+              src="src/assets/Portfolio/portfolio1.png"
               alt="hero template"
               width={500}
               height={500}
